@@ -10,6 +10,7 @@ Download or clone the repository
 
 ### Installing
 
+cd Exercice_DEV
 npm install
 
 ## Running the tests
