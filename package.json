@@ -1,0 +1,27 @@
+{
+  "name": "exercice_dev",
+  "version": "1.0.0",
+  "description": "An html5 theme built with Bootstrap, Node and Sass",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap-sass": "^3.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexaOk/Exercice_DEV.git"
+  },
+  "keywords": [
+    "theme"
+  ],
+  "author": "Alexa Okito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexaOk/Exercice_DEV/issues"
+  },
+  "homepage": "https://github.com/AlexaOk/Exercice_DEV#readme"
+}
