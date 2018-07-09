@@ -118,12 +118,13 @@ hr{
         .input-group-addon{
           border: none;
           background-color: #ffff;
-          .btn{
+          a{
             width: 160px;
             height: 49px;
             font-family: "Roboto-Bold";
             font-size: 16px;
             line-height: 22px;
+            padding-top: 10px;
           }
         }
       }

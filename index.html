@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="shortcut icon" href="img/logo-minimized.jpg" type="image/x-icon" /> 
+  <link rel="shortcut icon" href="img/logo-minimized.jpg" type="image/x-icon" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bird Office</title>
   <link rel="stylesheet" href="css/app.css">
@@ -11,15 +11,29 @@
 <body>
   <header>
     <nav class="navbar navbar-default">
-      <a href="#"><img id="logo" src="img/logo.png" alt="Logo Bird Office"></a>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">+33 1 11 11 11 11</a></li>
-        <li class="active"><a href="#">Contact</a></li>
-        <li class="active"><a href="#">FAQ</a></li>
-        <li class="active"><a href="#">Partager votre espace</a></li>
-        <li class="active"><a href="#">Inscription</a></li>
-        <li class="active"><a href="#">Connexion</a></li>
-      </ul>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img alt="Brand" src="img/logo.png">
+          </a>
+        </div>
+        <div role="menu" id="navbar" class="navbar-collapse collapse in"  aria-expanded="false" style="">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">+33 1 11 11 11 11</a></li>
+            <li class="active"><a href="#">Contact</a></li>
+            <li class="active"><a href="#">FAQ</a></li>
+            <li class="active"><a href="#">Partager votre espace</a></li>
+            <li class="active"><a href="#">Inscription</a></li>
+            <li class="active"><a href="#">Connexion</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
   <main>
@@ -52,68 +66,68 @@
                 </span>
                 <input type="text"  class="form-control" placeholder="Essayer une ville, une adresse, un quartier, …"/>
                 <span class="input-group-addon">
-                  <button type="button" class="btn btn-primary btn-outline-secondary"  data-toggle="collapse" href="#collapseDiv" aria-expanded="false" aria-controls="collapseDiv">
+                  <a class="btn btn-primary btn-outline-secondary"  data-toggle="collapse" href="#collapseDiv" aria-expanded="false" aria-controls="collapseDiv">
                     Trouver une salle
-                  </button>
+                  </a>
                 </span>
               </div>
             </div>
           </div>
         </div>
         <div class="collapse" id="collapseDiv">
-        <div class="row">
-          <div class="col-sm-2">
-            <div class="card">
-              <a href="#"><img class="card-img-top" src="img/img1.png" alt="img1"></a>
-              <div class="card-body">
-                <a href="#"><p class="card-text">Opéra Saint-Lazare</p></a>
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="card">
+                <a href="#"><img class="card-img-top" src="img/img1.png" alt="img1"></a>
+                <div class="card-body">
+                  <a href="#"><p class="card-text">Opéra Saint-Lazare</p></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="card">
-              <a href="#"><img class="card-img-top" src="img/img2.png" alt="img2"></a>
-              <div class="card-body">
-                <a href="#"><p class="card-text">Opéra Saint-Lazare</p></a>
+            <div class="col-sm-2">
+              <div class="card">
+                <a href="#"><img class="card-img-top" src="img/img2.png" alt="img2"></a>
+                <div class="card-body">
+                  <a href="#"><p class="card-text">Opéra Saint-Lazare</p></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="card">
-              <a href="#"><img class="card-img-top" src="img/img3.png" alt="img3"></a>
-              <div class="card-body">
-                <a href="#"><p class="card-text">Opéra Saint-Lazare</p></a>
+            <div class="col-sm-2">
+              <div class="card">
+                <a href="#"><img class="card-img-top" src="img/img3.png" alt="img3"></a>
+                <div class="card-body">
+                  <a href="#"><p class="card-text">Opéra Saint-Lazare</p></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="card">
-              <a href="#"><img class="card-img-top" src="img/img4.png" alt="img4"></a>
-              <div class="card-body">
-                <a href="#"><p class="card-text">Opéra Saint-Lazare</p></a>
+            <div class="col-sm-2">
+              <div class="card">
+                <a href="#"><img class="card-img-top" src="img/img4.png" alt="img4"></a>
+                <div class="card-body">
+                  <a href="#"><p class="card-text">Opéra Saint-Lazare</p></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="card">
-              <a href="#"><img class="card-img-top" src="img/img5.png" alt="img5"></a>
-              <div class="card-body">
-                <a href="#"><p class="card-text">Opéra Saint-Lazare</p></a>
+            <div class="col-sm-2">
+              <div class="card">
+                <a href="#"><img class="card-img-top" src="img/img5.png" alt="img5"></a>
+                <div class="card-body">
+                  <a href="#"><p class="card-text">Opéra Saint-Lazare</p></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="card">
-              <a href="#"><img class="card-img-top" src="img/img6.png" alt="img6"></a>
-              <div class="card-body">
-                <a href="#"><p class="card-text">Opéra Saint-Lazare</p></a>
+            <div class="col-sm-2">
+              <div class="card">
+                <a href="#"><img class="card-img-top" src="img/img6.png" alt="img6"></a>
+                <div class="card-body">
+                  <a href="#"><p class="card-text">Opéra Saint-Lazare</p></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
     <hr>
     <div class="section-d">
       <div class="container">
@@ -254,19 +268,18 @@
             </div>
           </div>
           <div class="col-sm-2">
-            <a href="#">
               <div class="card lastcard bg-primary">
-              <div class="card-body">
-                <a href="#"><p class="card-text">Voir tous les quartiers à Paris</p></a>
+                <div class="card-body">
+                  <a href="#"><p class="card-text">Voir tous les quartiers à Paris</p></a>
+                </div>
+                <i class="glyphicon glyphicon-arrow-right"></i>
               </div>
-              <i class="glyphicon glyphicon-arrow-right"></i>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
-  <script src="node_modules/jquery/dist/jquery.js"></script>
-  <script src="node_modules/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
-</body>
-</html>
+    </main>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+  </body>
+  </html>
