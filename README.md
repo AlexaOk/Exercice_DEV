@@ -1,1 +1,31 @@
 # Exercice_DEV
+
+An html5 theme built with bootstrap and sass. Built to be responsive, as well as being as general as possible, in order to enable adaptation and modification.
+
+Being built with sass, it is easily and quickly customizable. All of the other dependencies used, as well as some not used directly, have been included in the node_modules folder in order to further encourage customization.
+
+### Prerequisites
+
+Download or clone the repository
+
+### Installing
+
+npm install
+
+## Running the tests
+
+Click on Exercice_dev/index.html
+
+## Deployment
+
+Second option would be to cick on : http://htmlpreview.github.io/?https://github.com/AlexaOk/Exercice_DEV/blob/master/index.html
+
+## Built With
+
+* [Bootstrap](http://getbootstrap.com/docs/3.3/) - The web framework used
+* [Sass](https://sass-lang.com/) - CSS preprocessor
+* [NodeJS](https://nodejs.org/en/) - Open source server environment
+
+## Authors
+
+* **Alexa Okito** - www.alexaokito.com
