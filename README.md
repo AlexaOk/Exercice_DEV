@@ -10,6 +10,8 @@ Being built with sass, it is easily and quickly customizable. All of the other d
 
 Download or clone the repository
 
+git clone https://github.com/AlexaOk/Exercice_DEV.git
+
 ### Installing
 
 cd Exercice_DEV
