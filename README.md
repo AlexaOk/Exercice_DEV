@@ -4,25 +4,6 @@ An html5 theme built with Bootstrap, Node and Sass. Built to be responsive, as w
 
 Being built with sass, it is easily and quickly customizable. All of the other dependencies used, as well as some not used directly, have been included in the node_modules folder in order to further encourage customization.
 
-# Structure
-
-.
-├── CSS
-│     └── app.css  
-├── font                  
-├── img
-├── node_modules
-│             └── bootstrap-Sass
-│             └── jquery
-├── Sass
-│     └──custom.scss
-│     └── customVariables.scss
-│     └── app.scss
-│
-├──index.html
-├──package-lock.json
-├──package.json
-├──README.md
 
 
 ### Prerequisites
