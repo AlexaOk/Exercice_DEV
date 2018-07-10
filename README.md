@@ -22,6 +22,14 @@ Click on Exercice_dev/index.html
 
 Or type your localhost/Path/to/Exercice_dev/index.html in your browser
 
+## Compiling
+
+Need Sass installed
+
+To compile the app.scss file :
+
+sass --watch sass/app.scss:css/app.css
+
 ## Deployment
 
 Second option would be to click on : http://htmlpreview.github.io/?https://github.com/AlexaOk/Exercice_DEV/blob/master/index.html
