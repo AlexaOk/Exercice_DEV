@@ -134,7 +134,8 @@ main hr {
     border-bottom: 1px solid #c1c7cd;
     margin-right: 30px;
     width: 255px;
-    height: 45px; }
+    height: 45px;
+    margin-top: 10px; }
     .section-e .col-sm-3 img {
       margin-right: 12px; }
     .section-e .col-sm-3 a {
